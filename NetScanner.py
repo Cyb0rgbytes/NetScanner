@@ -37,5 +37,6 @@ def print_result(results_list):
     for client in results_list:
         print(client["ip"] + "\t\t" + client["mac"])
 
-scan_result = scan("192.168.1.1/24")
+options = get_arguments()
+scan_result = scan(options.target)
 print_result(scan_result)
