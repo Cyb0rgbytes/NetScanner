@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 # Title........: NetScanner.py
 # Description..: This is a Python script for Linux systems to Scan for Devices on the subnet with ARP requests.
 # Author.......: SoftAddict
